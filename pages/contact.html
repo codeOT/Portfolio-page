@@ -84,18 +84,18 @@
 
     </div>
 
-    <form action="" method="POST">
+    <form action="https://formspree.io/f/mgeqzqea" method="post">
 
         <div class="inputBox">
-            <input type="text" id="fullName" name="name" placeholder="Name" required>
-            <input type="email" id="email_id" name="email" placeholder="Email address" required>
+            <input type="text" name="name" id="fullName" placeholder="Name" required>
+            <input type="email" name="email" id="email_id" placeholder="Email address" required>
         </div>
 
        
 
-        <textarea name="message" placeholder="your message" id="message" cols="30" rows="10" required></textarea>
+        <textarea placeholder="your message" name="message" id="message" cols="30" rows="10" required></textarea>
 
-        <input type="submit" onclick="SendMail()" value="send message" class="btn">
+        <input type="submit"  value="send message" class="btn">
 
     </form>
 
@@ -105,12 +105,9 @@
 
 <!-- contact section ends -->
 <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript">
-   (function(){
       emailjs.init("u9DhTSiWW5OdcenHg");
-   })();
 </script>
 <script src="../main.js"></script>
 </body>
