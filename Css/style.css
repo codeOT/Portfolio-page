@@ -168,7 +168,9 @@ section {
   font-size: 3rem;
   color: crimson;
   padding: .5rem 0;
-  display: block;
+  /* display: block; */
+  
+  
 }
 .home .content p {
   font-size: 1.5rem;
@@ -650,7 +652,7 @@ section .heading{
     font-size: 3rem;
     color: crimson;
     padding: .5rem 0;
-    display: block;
+    display: inline-block;
 
   }
 }
@@ -684,7 +686,7 @@ section .heading{
     font-size: 2.5rem;
     color: crimson;
     padding: .5rem 0;
-    display: block;
+    display: inline-block;
   }
  
    
